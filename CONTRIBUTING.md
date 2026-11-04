@@ -1,6 +1,12 @@
 # Contributing
  
 Issues and pull requests are welcome.
+
+> [!WARNING]
+> Use a burner account for opsec reasons.
+>
+> Questions about SPARC should not be discussed here (as in not on GitHub, or any public forum for that matter).
+> Please contact either [SPARC directly](https://sparc-cyberdefence.ch/us/contact/) or, if community-related, [An0n](https://threema.id/87YD3CY3).
  
 ## Getting access
  
