@@ -17,8 +17,35 @@ This is a security measure. It prevents people from impersonating SPARC Communit
 > Please contact either [SPARC directly](https://sparc-cyberdefence.ch/us/contact/) or, if community-related, [An0n](https://threema.id/87YD3CY3).
  
 ## Workflow
-1. Fork the repository and create a feature branch.
-2. Add your file (only SVG format is accepted) in the matching directory and follow the naming convention in the [README](README.md#naming-convention).
-3. Use [Conventional Commits](https://www.conventionalcommits.org/) style messages, for example `chore: add custom pfp of student`.
-4. Open a pull request.
+
+As a contributor you have write access to this repository, so there is no need to fork it. Work on a branch and never push directly to `main`.
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sprac-ch/resources.git
+   cd resources
+   ```
+2. Make sure your commit identity does not leak personal data. Use your burner account details, for example the GitHub noreply address:
+   ```bash
+   git config user.name "your-burner-username"
+   git config user.email "your-burner-username@users.noreply.github.com"
+   ```
+3. Create a feature branch from an up-to-date `main`:
+   ```bash
+   git switch main
+   git pull
+   git switch -c feat/short-description
+   ```
+4. Add your file (only SVG format is accepted) in the matching directory and follow the naming convention in the [README](README.md#naming-convention).
+5. Commit using [Conventional Commits](https://www.conventionalcommits.org/) style messages, for example `chore: add custom pfp of student`:
+   ```bash
+   git add .
+   git commit -m "chore: add custom pfp of student"
+   ```
+6. Push your branch to the repository:
+   ```bash
+   git push -u origin feat/short-description
+   ```
+7. Open a pull request from your branch into `main` and wait for review. If changes are requested, push further commits to the same branch.
+
 For suggestions, use the [issue tracker](https://github.com/sprac-ch/resources/issues).
