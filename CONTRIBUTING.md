@@ -49,3 +49,8 @@ As a contributor you have write access to this repository, so there is no need t
 7. Open a pull request from your branch into `main` and wait for review. If changes are requested, push further commits to the same branch.
 
 For suggestions, use the [issue tracker](https://github.com/sprac-ch/resources/issues).
+
+## Final words
+
+Thank you for reading our contributing guideline carefully and wanting to contribute to our community project :)
+
