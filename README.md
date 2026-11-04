@@ -57,6 +57,7 @@ Issues and pull requests are welcome. Check out [CONTRIBUTING.md](CONTRIBUTING.m
 
 - [@An0n](https://github.com/thisisdefinitelynotaburner) | [Contact An0n on Threema](https://threema.id/87YD3CY3) (Repository Maintainer)
 - [@vo1n](https://github.com/vo1n-sh) | [Contact vo1n on Threema](https://threema.id/P4MM574Y) (Repository Maintainer)
+- [@PurpleData](https://github.com/PurpleData) (Idea for the contributor verification process)
 
 ## Contact
 
